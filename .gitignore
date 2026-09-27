@@ -1,0 +1,19 @@
+# Do not upload Makefile and config
+Makefile
+config.mk
+
+*:Zone.Identifier
+# ModelSim / QuestaSim generated files
+work/
+transcript
+vsim.wlf
+*.wlf
+*.log
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.bak
+*.swp
+*~
